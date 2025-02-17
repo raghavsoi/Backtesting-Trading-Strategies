@@ -6,18 +6,6 @@
 
 An institutional-grade backtesting system featuring multiple strategies, advanced analytics, and professional risk management for cryptocurrency markets.
 
-## 📑 Table of Contents
-- [Key Features](#-key-features)
-- [Strategy Overview](#-strategy-overview)
-- [Quick Start](#-quick-start)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [Optimization](#-optimization)
-- [Data Requirements](#-data-requirements)
-- [Contributing](#-contributing)
-- [Disclaimer](#-disclaimer)
-- [License](#-license)
-
 ## 🌟 Key Features
 
 ### Strategy Engine
@@ -39,6 +27,17 @@ An institutional-grade backtesting system featuring multiple strategies, advance
 - Interactive HTML reports
 - Equity curve analysis
 
+### Quick Start 🚀
+Clone repository
+
+```bash
+git clone https://github.com/yourusername/crypto-backtesting.git
+cd crypto-backtesting
+```
+Install requirements
+```bash
+pip install -r requirements.txt
+```
 ## 🧠 Strategy Overview
 
 ### Logic Diagram
@@ -54,3 +53,4 @@ graph TD
     F --> H[TP/SL Management]
     G --> H
     H --> I[Position Closing]
+
